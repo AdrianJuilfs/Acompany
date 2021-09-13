@@ -1,3 +1,5 @@
+package turtle;
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -140,12 +142,11 @@ public class TurtleGrafik extends JFrame {
 	}
 	
 	private void aufg1() {
-		// Aufgabe 1
 		
 	}
 	
 	private void aufg2() {
-		// Aufgabe 2
+		
 		
 	}
 	
