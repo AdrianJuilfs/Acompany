@@ -223,22 +223,18 @@ public class TurtleGrafik extends JFrame {
     }
 
     private void aufg7() {
-        //      int lang = 4;
-        //    for (int zahl = 0; zahl != 22; zahl++) {
-        //      quadrat();
-        //    lang = lang + lang;
-        //}
+        /*lang = 4;
+        for (int zahl = 0; zahl != 22; zahl++) {
+            lang = lang + 0.25 * lang;
+            Quadrat( String lang){
+                for (int i = 0; i != 4; i++) {
+                    t.vor(lang);
+                    t.drehen(90);
+                }
+            }
+        }*/
     }
 
-    /*
-        private void quadrat() {
-            //for (int zahl = 0; zahl != 4; zahl++) {
-              //  t.vor(lang);
-                //t.drehen(90);
-            }
-        }
-
-    */
     private void aufg8() {
         for (int i = 0; i != 18; i++) {
             aufg3();
@@ -266,9 +262,10 @@ public class TurtleGrafik extends JFrame {
 
     private void aufg11() {
         // Aufgabe 11
-        for (int i = 0; i != 6; i++){
+        for (int i = 0; i != 6; i++) {
             dreieck();
-            t.drehen(220);
+            t.vor(100);
+            t.drehen(-60);
         }
     }
 
